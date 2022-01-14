@@ -58,11 +58,30 @@ body{
 /* .........................................
      Journey as Influencer style end
 .............................................*/
+.propular-product {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 100px;
+}
 .section-title{
     text-align: center;
     font-weight: 600;
     font-size: 28px;
     padding-top:50px ;
+    padding-bottom: 47px;
+}
+.product img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.image-title{
+        margin-top: 16px;
+}
+#product-price{
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: 24px;
 }
 .icon{
     display: flex;
@@ -72,5 +91,11 @@ body{
 .reting-number{
     color: black;
     padding-left: 10px;
+}
+.product-descrition{
+    color: #787885;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
