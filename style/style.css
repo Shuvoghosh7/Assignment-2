@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Poppins:wght@500&display=swap');
+
+/*.................
+     Commone style 
+................... */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* .navigation{
+    Width: 243px;
+    Height: 52.2px;
+    position: absolute;
+    left: 8.33%;
+    right: 74.79%;
+    top: 2.63%;
+    bottom: 95.79%;
+    font-weight: bold;
+    font-size: 24px;
+    
+} */
+
+/* .........................................
+     Journey as Influencer style start
+.............................................*/
+.Influencer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.Influencer-info{
+    width: 582px;
+    height: 133px;
+}
+.Influencer-image{
+    width: 440px;
+    height: 414px;
+    border-radius: 10px;
+    
+}
+.button{
+    width: 196px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #E02C6D; 
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    align-items: center;
+}
+.button-icon{
+    padding-left: 20px;
+}
+.Influencer-image:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+/* .........................................
+     Journey as Influencer style end
+.............................................*/
+.section-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    padding-top:50px ;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    color:#FB8200;
+}
+.reting-number{
+    color: black;
+    padding-left: 10px;
+}
+
