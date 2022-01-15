@@ -206,6 +206,9 @@ footer{
 @media only screen and (max-width:688px){
     nav p{
         white-space: nowrap;
+        text-align: center;
+        font-size: 20px;
+        margin-top:50px;
     }
     .Influencer{
         grid-template-columns: repeat(1,1fr);
@@ -223,6 +226,11 @@ footer{
     .propular-product{
         grid-template-columns: repeat(1,1fr);
     }
+    .section-title{
+        font-size: 15px;
+        white-space: nowrap;
+   
+    }
     .ankor{
         float: left;
         width: 200px;
@@ -233,6 +241,11 @@ footer{
         width: 300px;
         height: 250px;
     }
+    .footer{
+         position: static;
+         width: 100%;
+        
+    }
 }
 /* ..............................
      Media quary for Tablet
@@ -240,6 +253,7 @@ footer{
 @media only screen and (min-width:688px) and (max-width:992px) {
     nav p{
         white-space: nowrap;
+        text-align: center;
     }
    
     .Influencer{
