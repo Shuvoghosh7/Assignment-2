@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 /* .navigation{
     Width: 243px;
     Height: 52.2px;
@@ -58,10 +59,31 @@ body{
 /* .........................................
      Journey as Influencer style end
 .............................................*/
+/* .........................................
+     propular-product section style start
+.............................................*/
+.Popular-Collection{
+    padding-left: 124px;
+    padding-right: 256px;
+
+}
 .propular-product {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-left: 100px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    
+   
+}
+.products{
+    width: 329px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;height: 476px;
+    padding-top: 17px;
+    padding-left: 20px;
+    
+  
 }
 .section-title{
     text-align: center;
@@ -98,4 +120,22 @@ body{
     font-size: 14px;
     margin-top: 5px;
 }
-
+.ankor a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    margin-top: 30px;
+    padding-right: 130px;
+   
+}
+.ankor-icon{
+    padding-left: 20px;
+}
+/* .........................................
+     propular-product section style end
+.............................................*/
+/* ..........................................
+         footer section style start
+............................................. */
